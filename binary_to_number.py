@@ -7,4 +7,4 @@ def binary_array_to_number(arr):
         s = s * 2 + digit
 
     return s
-print(binary_array_to_number([0,0,0,1]))
+print(binary_array_to_number([1,0,0,1]))
