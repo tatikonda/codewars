@@ -6,13 +6,8 @@ def duplicate_count(text):
     return len(duplicate_letters)
 
 
-def duplicate_count1(text):
-    lowerText = text.lower()
-    found = []
-    for char in lowerText:
-        if(not(char in found) and lowerText.count(char) > 1):
-            found.append(char)
-    print(found)
-    return len(found)        
+def duplicate_count(s):
+  return len([c for c in set(s.lower()) if s.lower().count(c)>1])
+      
 print(duplicate_count("MA00URYBSiCQXYcUEV3Tj229ql9ZNkYXI2Kh7SKJvLkR5bF1UtMx7"))
      
