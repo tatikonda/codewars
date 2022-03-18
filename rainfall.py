@@ -1,7 +1,6 @@
 import statistics
 import re
 
-import re
 def get_records(town, strng):
     for line in strng.split('\n'):
         if line.startswith(town + ':'):
