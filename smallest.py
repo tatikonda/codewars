@@ -14,9 +14,4 @@ def smallest(n):
                 y = j
     return [m, x, y]
 
-
-
-
-
-
 print(smallest(261235))
