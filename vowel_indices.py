@@ -6,6 +6,4 @@ def vowel_indices(word):
             res.append(n)
     return res
 
-
-
 print(vowel_indices("apple"))
